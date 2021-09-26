@@ -1,5 +1,12 @@
 ### Hi there 👋
-
+Name: Bernie Green
+Developer: Full Stack
+Languauges: JS, Python
+Tools: 
+  FrontEnd:
+    HTML, CSS, SASS, React, Redux
+  Backend:
+    Express, Node, Mongo, PostGreSQL, Mongoose
 <!--
 **bgreen280/bgreen280** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,3 +21,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
