@@ -41,7 +41,7 @@
 [<img align="left" alt="berniegreen | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
 [<img align="left" alt="berniegreen | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 [<img align="left" alt="berniegreen | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
- -->
+-->
 
 
 <br />
@@ -52,56 +52,56 @@
 #### Here's a snippet for funs!
 
 ```javascript/**
- * @param {*} personalInfo - object containing list of personal properities
- * @returns string formated as About me Profile
- * Expected Output -->    
- * About Me
- * name: Bernie Green
- * developerType: Fullstack
- * location: USA Hong Kong
- * activities: 
- *   currently: Resident @ Codemith
- *   lookingTo: Collaborate on Open Source Projects
- *   workingOn: Develop a productivity App
- *   goal: work "working on"
- *   fact: motorbiking from Hanoi to Ban Gioc Waterfalls to Ha Giang Looop to Hanoi is totally worth it
- * 
- * tools:
- *   languages: JavaScript Python
- *   frontend: HTML CSS SASS React Redux 
- *   backend: Express Node MongoDB PostGreSQL Mongoose Axios 
- *   other: git gitHub VScode Terminal
+* @param {*} personalInfo - object containing list of personal properities
+* @returns string formated as About me Profile
+* Expected Output -->    
+* About Me
+* name: Bernie Green
+* developerType: Fullstack
+* location: USA Hong Kong
+* activities: 
+*   currently: Resident @ Codemith
+*   lookingTo: Collaborate on Open Source Projects
+*   workingOn: Develop a productivity App
+*   goal: work "working on"
+*   fact: motorbiking from Hanoi to Ban Gioc Waterfalls to Ha Giang Looop to Hanoi is totally worth it
+* 
+* tools:
+*   languages: JavaScript Python
+*   frontend: HTML CSS SASS React Redux 
+*   backend: Express Node MongoDB PostGreSQL Mongoose Axios 
+*   other: git gitHub VScode Terminal
 */
 const introduction = (personalInfo, level = 0) => {
-  let output = (level === 0) ? 'About Me \n' : '';
-  for (let property in personalInfo) {
-    const propertyValue = personalInfo[property];
-    let string = (level === 0) ? '' : '  '.repeat(level);
-    if (typeof propertyValue === 'string') { string += `${property}: ${propertyValue}`; }
-    else if (Array.isArray(propertyValue)) { string += `${property}: ${propertyValue.join(' ')}`; }
-    else if (typeof propertyValue === 'object') { string += `${property}: \n${introduction(propertyValue, level + 1)}` }
-    output += string + '\n';
-  }
-  return output;
+ let output = (level === 0) ? 'About Me \n' : '';
+ for (let property in personalInfo) {
+   const propertyValue = personalInfo[property];
+   let string = (level === 0) ? '' : '  '.repeat(level);
+   if (typeof propertyValue === 'string') { string += `${property}: ${propertyValue}`; }
+   else if (Array.isArray(propertyValue)) { string += `${property}: ${propertyValue.join(' ')}`; }
+   else if (typeof propertyValue === 'object') { string += `${property}: \n${introduction(propertyValue, level + 1)}` }
+   output += string + '\n';
+ }
+ return output;
 };
 
 const personalInfo = { 
-  name: 'Bernie Green',
-  developerType: 'Fullstack',
-  location: ['USA', 'Hong Kong'],
-  activities: { 
-    currently: 'Resident @ Codesmith',
-    lookingTo: 'Collaborate on Open Source Projects',
-    workingOn: 'Developing a productivity App',
-    goal: 'see "working on"',
-    fact: 'motorbiking from Hanoi to Ban Gioc Waterfalls to Ha Giang Looop to Hanoi is totally worth it'
-  },
-  tools: {
-    languages: ['JavaScript', 'Python'],
-    frontend: ['HTML', 'CSS', 'SASS', 'React', 'Redux'],
-    backend: ['Express', 'Node', 'MongoDB', 'PostGreSQL', 'Mongoose', 'Axios'],
-    other: ['git', 'gitHub', 'VScode', 'Terminal']
-  },
+ name: 'Bernie Green',
+ developerType: 'Fullstack',
+ location: ['USA', 'Hong Kong'],
+ activities: { 
+   currently: 'Resident @ Codesmith',
+   lookingTo: 'Collaborate on Open Source Projects',
+   workingOn: 'Developing a productivity App',
+   goal: 'see "working on"',
+   fact: 'motorbiking from Hanoi to Ban Gioc Waterfalls to Ha Giang Looop to Hanoi is totally worth it'
+ },
+ tools: {
+   languages: ['JavaScript', 'Python'],
+   frontend: ['HTML', 'CSS', 'SASS', 'React', 'Redux'],
+   backend: ['Express', 'Node', 'MongoDB', 'PostGreSQL', 'Mongoose', 'Axios'],
+   other: ['git', 'gitHub', 'VScode', 'Terminal']
+ },
 };
 
 const introduceSelf = introduction(personalInfo);
@@ -115,4 +115,9 @@ export default introduceSelf;
 [twitter]: 
 [instagram]: 
 [youtube]: 
- -->
+-->
+<!-- 
+credit and inpiration: 
+ codeSTACKr: https://github.com/codeSTACKr/codeSTACKr/blob/master/README.md
+ coderjojo: https://github.com/coderjojo/creative-profile-readme
+-->
