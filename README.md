@@ -7,11 +7,11 @@
 - **Looking to**: Collaborate on Open Source Projects
 - **Working on**: Developing a productivity App
 - **2021 goal**: &uarr;
-- Motorbiking 🏍️ from 🇻🇳 Hanoi &rarr; 🌊 🏞️ Ban Gioc Waterfalls &rarr; 🛣️ Ha Giang Loop &rarr; 🇻🇳 Hanoi *is totally worth it* 
+- **Fact**: Motorbiking 🏍️ from 🇻🇳 Hanoi &rarr; 🌊 🏞️ Ban Gioc Waterfalls &rarr; 🛣️ Ha Giang Loop &rarr; 🇻🇳 Hanoi *is totally worth it* 
 
 ---
 
-### Here are _Languages and Tools_ 💻 🛠️ ⚙️ I use
+### _Languages and Tools_ 💻 🛠️ ⚙️
 <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 <img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />
 <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
@@ -33,7 +33,7 @@
 
 ---
 
-### Here's where I live 🏠 online  🖥️ 🌐 🕸️ 
+### Where I live 🏠 online  🖥️ 🌐 🕸️ 
 [<img align="left" alt="berniegreen" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
 [<img align="left" alt="berniegreen | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
@@ -51,44 +51,61 @@
 
 #### Here's a snippet for funs!
 
-```javascript
-  /**
-   * @param {*} personalInfo - object containing list of personal properities
-   * @returns string formated as About me Profile
-   * Expected Output --> 
-   * About Me
-   * name: Bernie Green
-   * developerType: Fullstack
-   * languages: JavaScript Python
-   * tools:
-   *   frontend: HTML CSS SASS React Redux 
-   *   backend: Express Node MongoDB PostGreSQL Mongoose Axios 
-  */
-  const introduction = (personalInfo, level = 0) => {
-    let output = (level === 0) ? 'About Me \n' : '';
-    for (let property in personalInfo) {
-      const propertyValue = personalInfo[property];
-      let string = (level === 0) ? '' : '  '.repeat(level);
-      if (typeof propertyValue === 'string') { string += `${property}: ${propertyValue}`; }
-      else if (Array.isArray(propertyValue)) { string += `${property}: ${propertyValue.join(' ')}`; }
-      else if (typeof propertyValue === 'object') { string += `${property}: \n${introduction(propertyValue, level += 1)}` }
-      output += string + '\n';
-    }
-    return output;
-  };
+```javascript/**
+ * @param {*} personalInfo - object containing list of personal properities
+ * @returns string formated as About me Profile
+ * Expected Output -->    
+ * About Me
+ * name: Bernie Green
+ * developerType: Fullstack
+ * location: USA Hong Kong
+ * activities: 
+ *   currently: Resident @ Codemith
+ *   lookingTo: Collaborate on Open Source Projects
+ *   workingOn: Develop a productivity App
+ *   goal: work "working on"
+ *   fact: motorbiking from Hanoi to Ban Gioc Waterfalls to Ha Giang Looop to Hanoi is totally worth it
+ * 
+ * tools:
+ *   languages: JavaScript Python
+ *   frontend: HTML CSS SASS React Redux 
+ *   backend: Express Node MongoDB PostGreSQL Mongoose Axios 
+ *   other: git gitHub VScode Terminal
+*/
+const introduction = (personalInfo, level = 0) => {
+  let output = (level === 0) ? 'About Me \n' : '';
+  for (let property in personalInfo) {
+    const propertyValue = personalInfo[property];
+    let string = (level === 0) ? '' : '  '.repeat(level);
+    if (typeof propertyValue === 'string') { string += `${property}: ${propertyValue}`; }
+    else if (Array.isArray(propertyValue)) { string += `${property}: ${propertyValue.join(' ')}`; }
+    else if (typeof propertyValue === 'object') { string += `${property}: \n${introduction(propertyValue, level + 1)}` }
+    output += string + '\n';
+  }
+  return output;
+};
 
-  const personalInfo = { 
-    name: 'Bernie Green',
-    developerType: 'Fullstack',
+const personalInfo = { 
+  name: 'Bernie Green',
+  developerType: 'Fullstack',
+  location: ['USA', 'Hong Kong'],
+  activities: { 
+    currently: 'Resident @ Codesmith',
+    lookingTo: 'Collaborate on Open Source Projects',
+    workingOn: 'Developing a productivity App',
+    goal: 'see "working on"',
+    fact: 'motorbiking from Hanoi to Ban Gioc Waterfalls to Ha Giang Looop to Hanoi is totally worth it'
+  },
+  tools: {
     languages: ['JavaScript', 'Python'],
-    tools: {
-      frontend: ['HTML', 'CSS', 'SASS', 'React', 'Redux'],
-      backend: ['Express', 'Node', 'MongoDB', 'PostGreSQL', 'Mongoose', 'Axios']
-    },
-  };
+    frontend: ['HTML', 'CSS', 'SASS', 'React', 'Redux'],
+    backend: ['Express', 'Node', 'MongoDB', 'PostGreSQL', 'Mongoose', 'Axios'],
+    other: ['git', 'gitHub', 'VScode', 'Terminal']
+  },
+};
 
-  const introduceSelf = introduction(personalInfo);
-  export default introduceSelf;
+const introduceSelf = introduction(personalInfo);
+export default introduceSelf;
 ```
 
 
