@@ -7,14 +7,13 @@ Check out my deats below :)
  * Expected Output --> 
  * About Me
  * name: Bernie Green
- * developerType: Full Stack
+ * developerType: Fullstack
  * languages: JavaScript Python
  * tools:
- *   frontEnd: HTML CSS SASS React Redux 
+ *   frontend: HTML CSS SASS React Redux 
  *   backend: Express Node MongoDB PostGreSQL Mongoose Axios 
 */
 const introduction = (personalInfo, level = 0) => {
-
   // add 'About Me' title at level 0 or blank output at all over level
   let output = (level === 0) ? 'About Me \n' : '';
 
@@ -43,14 +42,14 @@ const introduction = (personalInfo, level = 0) => {
   return output;
 };
 
-// contains Bernie Green's personal info
+// contains relevant personal info
 // properities: String name, String type, Array languages, Object tools 
 const personalInfo = { 
   name: 'Bernie Green',
-  developerType: 'Full Stack',
+  developerType: 'Fullstack',
   languages: ['JavaScript', 'Python'],
   tools: {
-    frontEnd: ['HTML', 'CSS', 'SASS', 'React', 'Redux'],
+    frontend: ['HTML', 'CSS', 'SASS', 'React', 'Redux'],
     backend: ['Express', 'Node', 'MongoDB', 'PostGreSQL', 'Mongoose', 'Axios']
   },
 };
