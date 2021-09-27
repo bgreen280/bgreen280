@@ -9,16 +9,14 @@ Check out my deats below :)
  * name: Bernie Green
  * developerType: Full Stack
  * languages: JavaScript Python
+ * tools:
  *   frontEnd: HTML CSS SASS React Redux 
  *   backend: Express Node MongoDB PostGreSQL Mongoose Axios 
 */
 const introduction = (personalInfo, level = 0) => {
 
-  // output var to store logged personal information
-  let output = '';
-  
-  // add 'About Me' title at level 0
-  if (level === 0) { output = 'About Me \n'; };
+  // add 'About Me' title at level 0 or blank output at all over level
+  let output = (level === 0) ? 'About Me \n' : '';
 
   // iterate over string properities and add values to output depending on data type
   for (let property in personalInfo) {
@@ -27,10 +25,7 @@ const introduction = (personalInfo, level = 0) => {
     const propertyValue = personalInfo[property];
 
     // initialize string to be updated below
-    let string = '';
-
-    // indent string depending on level
-    for (let i = 0; i < level; i++) { string += '  '; };
+    let string = (level === 0) ? '' : '  '.repeat(level);
     
     // update string depending on data type
     // string -> key: value
@@ -38,7 +33,7 @@ const introduction = (personalInfo, level = 0) => {
     // array -> key: value1, value2, ..., valueN
     else if (Array.isArray(propertyValue)) { string += `${property}: ${propertyValue.join(' ')}`; }
     // object -> recurssivly call function and iterate through object. indents line two spaces for each level
-    else if (typeof propertyValue === 'object') { output += introduction(propertyValue, level += 1) }
+    else if (typeof propertyValue === 'object') { string += `${property}: \n${introduction(propertyValue, level += 1)}` }
     
     // add new string to output
     output += string + '\n';
