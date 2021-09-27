@@ -52,6 +52,7 @@
 #### Here's a snippet for funs!
 
 ```javascript/**
+/*
 * @param {*} personalInfo - object containing list of personal properities
 * @returns string formated as About me Profile
 * Expected Output -->    
