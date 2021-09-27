@@ -21,9 +21,6 @@ const introduction = (personalInfo, level = 0) => {
   if (level === 0) { output = 'About Me \n'; };
 
   // iterate over string properities and add values to output depending on data type
-  // string -> key: value
-  // array -> key: value1, value2, ..., valueN
-  // object -> recurssivly call function and iterate through object. indents line two spaces for each level
   for (let property in personalInfo) {
 
     // store value for easy access
@@ -36,8 +33,11 @@ const introduction = (personalInfo, level = 0) => {
     for (let i = 0; i < level; i++) { string += '  '; };
     
     // update string depending on data type
+    // string -> key: value
     if (typeof propertyValue === 'string') { string += `${property}: ${propertyValue}`; }
+    // array -> key: value1, value2, ..., valueN
     else if (Array.isArray(propertyValue)) { string += `${property}: ${propertyValue.join(' ')}`; }
+    // object -> recurssivly call function and iterate through object. indents line two spaces for each level
     else if (typeof propertyValue === 'object') { output += introduction(propertyValue, level += 1) }
     
     // add new string to output
