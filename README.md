@@ -3,10 +3,10 @@
 ## I'm a Fullstack Developer from 🇺🇸 based in 🇭🇰 
 
 #### Here's a bit about me
-- **Currently**: Resident @ Codesmith
+- **Currently**: Software Engineer @ DockerNet.io (OSLabs)
 - **Looking to**: Collaborate on Open Source Projects
 - **Working on**: Developing a productivity App
-- **2021 goal**: &uarr;
+- **2021 goal**: see &uarr;
 - **Fact**: Motorbiking 🏍️ from 🇻🇳 Hanoi &rarr; 🌊 🏞️ Ban Gioc Waterfalls &rarr; 🛣️ Ha Giang Loop &rarr; 🇻🇳 Hanoi *is totally worth it* 
 
 ---
