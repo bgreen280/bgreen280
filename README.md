@@ -1,17 +1,17 @@
-### Hi there 👋
+## 👋 Hi there - I'm Bernie Green, a Fullstack Developer 
 
-## I'm Bernie Green a Fullstack Developer 
+### 
 
 #### Here's a bit about me
-- **Currently**: Software Engineer @ DockerNet.io (OSLabs) & Software Engineering Fellow @ Codesmith
-- **Looking to**: Collaborate on EdTech or Productivity Open Source Projects
+- **Currently**: Software Engineer @ DockerNet.io (OSLabs) || Software Engineering Fellow @ Codesmith
+- **Looking to**: Collaborate on EdTech and/or Productivity Open-Source Projects
 - **Working on**: Developing a productivity App
 - **2021 goal**: see &uarr;
-- **Fact**: Motorbiking 🏍️ from 🇻🇳 Hanoi &rarr; 🌊 🏞️ Ban Gioc Waterfalls &rarr; 🛣️ Ha Giang Loop &rarr; 🇻🇳 Hanoi *is totally worth it* 
+- **Fact**: Motorbiking around Ha Giang Loop *is totally worth it* 🏍️ &rarr;🇻🇳 &rarr; 🌊&rarr; 🏞️ &rarr;🛣️&rarr;🇳
 
 ---
 
-### _Languages and Tools_ 💻 🛠️ ⚙️
+### 💻 🛠️ ⚙️ _Languages and Tools_ 
 <img align="left" alt="TypeScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" />
 <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 <img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />
@@ -36,7 +36,7 @@
 
 ---
 
-### Where I live 🏠 on the web  🖥️ 🌐 🕸️ 
+### 🏠 🖥️ 🌐 🕸️  Where I live on the web
 <!-- [<img align="left" alt="berniegreen" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website] -->
 [<img align="left" alt="berniegreen | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
