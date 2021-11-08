@@ -1,9 +1,9 @@
-### Hi there! I'm Bernie Green 👋
+### Hi there 👋
 
-## I'm a Fullstack Developer from 🇺🇸 based in 🇭🇰 
+## I'm Bernie Green a Fullstack Developer 
 
 #### Here's a bit about me
-- **Currently**: Software Engineer @ DockerNet.io (OSLabs)
+- **Currently**: Software Engineer @ DockerNet.io (OSLabs), Software Engineering Fellow @ Codesmith
 - **Looking to**: Collaborate on Open Source Projects
 - **Working on**: Developing a productivity App
 - **2021 goal**: see &uarr;
