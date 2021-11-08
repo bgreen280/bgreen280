@@ -3,8 +3,8 @@
 ## I'm Bernie Green a Fullstack Developer 
 
 #### Here's a bit about me
-- **Currently**: Software Engineer @ DockerNet.io (OSLabs), Software Engineering Fellow @ Codesmith
-- **Looking to**: Collaborate on Open Source Projects
+- **Currently**: Software Engineer @ DockerNet.io (OSLabs) & Software Engineering Fellow @ Codesmith
+- **Looking to**: Collaborate on EdTech or Productivity Open Source Projects
 - **Working on**: Developing a productivity App
 - **2021 goal**: see &uarr;
 - **Fact**: Motorbiking 🏍️ from 🇻🇳 Hanoi &rarr; 🌊 🏞️ Ban Gioc Waterfalls &rarr; 🛣️ Ha Giang Loop &rarr; 🇻🇳 Hanoi *is totally worth it* 
