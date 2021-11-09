@@ -1,4 +1,4 @@
-## 👋 Hi there - I'm Bernie Green, a Fullstack Developer 
+## 👋 Hi there - I'm Bernie Green, a Fullstack Software Engineer 
 
 ### 
 
