@@ -34,7 +34,7 @@
 
 ---
 
-### 🏠 🖥️ 🌐 🕸️  Where I live on the web
+### 🏠🖥️ Where I live on the web
 <!-- [<img align="left" alt="berniegreen" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website] -->
 [<img align="left" alt="berniegreen | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
