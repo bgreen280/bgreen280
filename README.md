@@ -1,9 +1,7 @@
 ## 👋 Hi there - I'm Bernie Green, a Fullstack Software Engineer 
 
-### 
-
 #### Here's a bit about me
-- **Currently**: Software Engineer @ DockerNet.io (OSLabs) || Software Engineering Fellow @ Codesmith
+- **Currently**: Software Engineer @ Codesmith || Software Engineer @ DockerNet.io (OSLabs)
 - **Looking to**: Collaborate on EdTech and/or Productivity Open-Source Projects
 - **Working on**: Developing a productivity App
 - **2021 goal**: see &uarr;
