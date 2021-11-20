@@ -5,7 +5,7 @@
 - **Looking to**: Collaborate on EdTech and/or Productivity Open-Source Projects
 - **Working on**: Developing a productivity App
 - **2021 goal**: see &uarr;
-- **Fact**: Motorbiking around the Ha Giang Loop *is totally worth it* 🏍️🇻🇳🏞️🛣️🇳
+- **Fact**: Motorbiking around the Ha Giang Loop *is totally worth it* 🏍️ 🇻🇳 🏞️ 🛣️🇳
 
 ---
 
