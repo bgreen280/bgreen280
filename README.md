@@ -3,7 +3,7 @@
 #### Here's a bit about me
 - **Currently**: Software Engineer @ Codesmith
 <!-- - **Looking to**: Collaborate on EdTech and/or Productivity Open-Source Projects -->
-- **Passion Projects**: [DockerNet][dockernet]
+- **Open Source**: [DockerNet][dockernet]
 <!-- - **2021 goal**: see &uarr; -->
 - **Fact**: Motorbiking around the Ha Giang Loop *is totally worth it* 🏍️ 🇻🇳 🏞️ 🛣️🇳
 
