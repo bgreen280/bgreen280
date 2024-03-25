@@ -3,9 +3,9 @@
 #### Here's a bit about me
 - **Currently**: Software Engineer @ Microsoft
 <!-- - **Looking to**: Collaborate on EdTech and/or Productivity Open-Source Projects -->
-- **Open Source**: [DockerNet][dockernet]
+<!-- - **Open Source**: [DockerNet][dockernet] -->
 <!-- - **2022 goal**: see &uarr; -->
-- **Fact**: Motorbiking around the Ha Giang Loop *is totally worth it* 🏍️ 🇻🇳 🏞️ 🛣️🇳
+<!-- - **Fact**: Motorbiking around the Ha Giang Loop *is totally worth it* 🏍️ 🇻🇳 🏞️ 🛣️🇳 -->
 
 ---
 
